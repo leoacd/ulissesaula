@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 197, 252);
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    padding-right: 10px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(250, 190, 236);
+    box-shadow: inset;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
