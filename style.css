@@ -11,8 +11,10 @@ header{
     height: 60px;
     padding-right: 10px;
 }
-.menu ul{
+header .menu ul{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .menu ul li{
     list-style: none;
@@ -32,5 +34,5 @@ header{
 
 iframe{
     display: block;
-    margin: auto;
+    margin: 20px auto;
 }
